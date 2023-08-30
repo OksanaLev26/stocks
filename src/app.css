@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: purple;
+  height: 100px;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  font-size: 35px;
+  color: white;
+  font-weight: 600;
+}
+
+.main,
+.about,
+.stocks {
+  margin: 24px;
+  text-align: center;
+}
+
+.stocks {
+  width: 100%;
+}
+
+.stocks h1 {
+  margin-bottom: 40px;
+}
+
+.storcksRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 50px 0 50px;
+  cursor: pointer;
+}
+
+.company {
+  display: flex;
+  width: 60%;
+  font-size: 24px;
+}
+
+.price {
+  display: flex;
+  flex: 1;
+  font-size: 24px;
+}
+
+.changes {
+  display: flex;
+  width: 20%;
+  font-size: 24px;
+}
+
+.divider {
+  height: 1px;
+  margin: 10px 50px 10px 50px;
+  background-color: black;
+}
+
+.stockInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 24px;
+}
+
+.stock {
+  display: flex;
+  flex-direction: row;
+  font-size: 24px;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.value {
+  margin-left: 20px;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
